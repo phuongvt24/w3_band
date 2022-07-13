@@ -85,6 +85,7 @@ html{
     height: 46.4px;
     background-color: #000;
     z-index: 1;
+    overflow: hidden;
 }
 
 #nav{
@@ -143,20 +144,50 @@ html{
     font-size: 11px;
 }
 
-#header .search-btn{
-    float:right;
-    padding: 0 24px;
-}
+
 
 #header .search-btn:hover{
     background-color: #f44336;
     cursor: pointer;
 }
 
+#header .search-btn{
+    float: right;
+    padding: 0 15px 0 15px;
+
+}
+
+#header .mobile-menu-btn{
+    float: right;
+    padding: 0 15px 0 15px;
+
+}
+
 #header .search-icon{
     color: #fff;
     font-size: 16px;   
     line-height: 46px;
+}
+
+
+#header .mobile-menu-btn{
+    padding: 0 24px;
+    display: none;
+}
+
+#header .mobile-menu{
+    color: #fff;
+    font-size: 16px;   
+    line-height: 46px;
+}
+
+#header .mobile-menu-btn:hover{
+    background-color: #ccc;
+    color: #000;
+}
+
+#header .mobile-menu-btn:hover .mobile-menu{
+    color: #000;
 }
 
 #slider {
@@ -193,6 +224,7 @@ html{
 }
 #content .content-section{
     width: 800px;
+    max-width: 100%; 
     padding: 64px 16px 112px; 
     margin-left: auto;
     margin-right: auto;
