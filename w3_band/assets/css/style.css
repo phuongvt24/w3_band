@@ -85,7 +85,6 @@ html{
     height: 46.4px;
     background-color: #000;
     z-index: 1;
-    overflow: hidden;
 }
 
 #nav{
@@ -111,14 +110,14 @@ html{
     text-transform:uppercase;
 }
 
-#nav  li  a {
+#nav li a {
     text-decoration: none;
     color: #fff;
     line-height: 46.4px;
     padding: 0 24px;
     display: inline-block;
 }
- #nav .subnav li:hover , 
+#nav .subnav li:hover , 
 #nav > li:hover > a {
     color: #000;
     background-color: #ccc;
