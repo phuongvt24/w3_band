@@ -77,6 +77,10 @@ html{
     margin-top: 16px !important;
 }
 
+.mt-32{
+    margin-top: 32px !important;
+}
+
 #header {
     position:fixed;
     top: 0;
@@ -252,7 +256,7 @@ html{
 }
 
 #content .member-list{
-    margin-top: 48px;
+    margin-top: 32px;
 }
 
 
@@ -307,7 +311,7 @@ html{
 
 
 .places-list{
-    margin-top: 32px;
+    margin-top: 16px;
 }
 
 .place-img{
