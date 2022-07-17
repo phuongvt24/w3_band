@@ -63,6 +63,7 @@ html{
     margin-top: 15px;
     border: none;
     cursor:pointer;
+    -webkit-appearance: none;
 }
 
 .text-center{
@@ -218,6 +219,7 @@ html{
 #slider .text-description{
     font-size: 15px;
     margin-top: 25px;
+    text-shadow: 0 0 1px #000;
 }
 
 
